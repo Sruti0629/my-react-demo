@@ -9,5 +9,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
     babel({ presets: [reactCompilerPreset()] })
+    
   ],
+  base: '/my-react-demo/'
 })
