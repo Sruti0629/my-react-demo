@@ -11,5 +11,5 @@ export default defineConfig({
     babel({ presets: [reactCompilerPreset()] })
     
   ],
-  base: '/my-react-demo/'
+  base: './'
 })
